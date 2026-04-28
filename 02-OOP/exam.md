@@ -9,7 +9,6 @@
 ## Instructions
 
 - Time: 120–150 minutes  
-- No internet  
 - Focus on design and understanding  
 - Write clean, structured code  
 

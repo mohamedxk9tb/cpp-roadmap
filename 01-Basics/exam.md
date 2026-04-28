@@ -2,8 +2,7 @@
 
 ## Instructions
 
-- Time: 60 minutes  
-- No internet  
+- Time: 60 minutes   
 - Focus on logic, not syntax only  
 - Write clean code  
 

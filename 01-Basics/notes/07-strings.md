@@ -173,20 +173,20 @@ int main() {
 
 ```mermaid
 flowchart LR
-    A[String Creation] --> B[Empty: string s]
-    A --> C[From literal: string s = "text"]
-    A --> D[From char*: string s = cString]
+    A["String Creation"] --> B["Empty: string s"]
+    A --> C["From literal: string s = \"text\""]
+    A --> D["From char*: string s = cString"]
 
-    B --> E[Operations]
+    B --> E["Operations"]
     C --> E
     D --> E
 
-    E --> F[Concatenation: +]
-    E --> G[Comparison: ==, <, >]
-    E --> H[Access: [], at()]
-    E --> I[Modification: push_back, pop_back]
-    E --> J[Search: find, substr]
-    E --> K[Transform: insert, erase, replace]
+    E --> F["Concatenation: +"]
+    E --> G["Comparison: ==, <, >"]
+    E --> H["Access: [], at()"]
+    E --> I["Modification: push_back, pop_back"]
+    E --> J["Search: find, substr"]
+    E --> K["Transform: insert, erase, replace"]
 ```
 
 ---

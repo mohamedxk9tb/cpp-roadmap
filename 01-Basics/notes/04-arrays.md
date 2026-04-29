@@ -58,8 +58,8 @@ flowchart LR
     subgraph Array
         A["Index 0<br/>Value: 1"] --> B["Index 1<br/>Value: 2"] --> C["Index 2<br/>Value: 3"] --> D["Index 3<br/>Value: 4"] --> E["Index 4<br/>Value: 5"]
     end
-    F[arr[0]] --> A
-    G[arr[2]] --> C
+    F["arr[0]"] --> A
+    G["arr[2]"] --> C
 ```
 
 ---

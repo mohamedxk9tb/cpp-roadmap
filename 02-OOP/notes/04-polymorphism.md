@@ -36,12 +36,13 @@ It allows the same function name to behave differently depending on the object.
 ```mermaid
 flowchart TD
     subgraph Compile_Time
-        A[sum(int, int)] --> B[sum(int, int, int)]
+        A["sum(int, int)"] --> B["sum(int, int, int)"]
     end
+
     subgraph Runtime
-        C[Parent.speak] --> D[Child Override]
-        D --> E[Dog.speak]
-        D --> F[Cat.speak]
+        C["Parent.speak"] --> D["Child Override"]
+        D --> E["Dog.speak"]
+        D --> F["Cat.speak"]
     end
 ```
 

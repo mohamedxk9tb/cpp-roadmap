@@ -24,7 +24,7 @@ Unlike arrays, elements are NOT stored in contiguous memory.
 
 ```mermaid
 flowchart LR
-A[10 | next] --> B[20 | next] --> C[30 | next] --> D[NULL]
+A[10  next] --> B[20  next] --> C[30  next] --> D[NULL]
 ```
 
 Each node points to the next node.

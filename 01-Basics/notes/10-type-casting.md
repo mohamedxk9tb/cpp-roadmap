@@ -261,20 +261,20 @@ int main() {
 
 ```mermaid
 flowchart TD
-    A[Type Casting] --> B[Implicit]
-    A --> C[Explicit]
+    A["Type Casting"] --> B["Implicit"]
+    A --> C["Explicit"]
 
-    B --> D[Automatic by compiler]
-    B --> E[Widening: int to double]
-    B --> F[Narrowing: double to int]
+    B --> D["Automatic"]
+    B --> E["Widening"]
+    B --> F["Narrowing"]
 
-    C --> G[C-style: (type)value]
-    C --> H[C++ style]
+    C --> G["C-style cast"]
+    C --> H["C++ casts"]
 
-    H --> I[static_cast: safe conversions]
-    H --> J[const_cast: remove/add const]
-    H --> K[reinterpret_cast: bit reinterpret]
-    H --> L[dynamic_cast: runtime check]
+    H --> I["static_cast"]
+    H --> J["const_cast"]
+    H --> K["reinterpret_cast"]
+    H --> L["dynamic_cast"]
 ```
 
 ---

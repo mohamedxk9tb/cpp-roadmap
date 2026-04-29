@@ -425,19 +425,19 @@ int main() {
 
 ```mermaid
 flowchart TD
-    A[Operator Overloading] --> B[Arithmetic: +, -, *, /]
-    A --> C[Comparison: ==, <, >, !=]
-    A --> D[Stream: <<, >>]
-    A --> E[Assignment: =, +=, -=]
-    A --> F[Unary: ++, --, -]
-    A --> G[Subscript: []]
+    A["Operator Overloading"] --> B["Arithmetic"]
+    A --> C["Comparison"]
+    A --> D["Stream"]
+    A --> E["Assignment"]
+    A --> F["Unary"]
+    A --> G["Subscript"]
 
-    B --> H[Binary operators]
+    B --> H["Binary"]
     C --> H
-    D --> I[Friend functions]
-    E --> J[Returns reference]
-    F --> K[Prefix vs Postfix]
-    G --> L[Array-like access]
+    D --> I["Friend"]
+    E --> J["Returns ref"]
+    F --> K["Prefix/Postfix"]
+    G --> L["Array access"]
 ```
 
 ---

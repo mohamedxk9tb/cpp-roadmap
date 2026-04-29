@@ -86,15 +86,18 @@ int main() {
 
 ```mermaid
 flowchart TB
-    subgraph External_User
-        A[Client Code]
+    subgraph User
+        A["Client"]
     end
+
     subgraph Interface
-        B[Abstract Class<br/>- virtual fn() = 0]
+        B["Abstract Class"]
     end
+
     subgraph Implementation
-        C[Concrete Class<br/>+ implement fn()]
+        C["Concrete Class"]
     end
+
     A --> B
     B --> C
 ```
